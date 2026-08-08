@@ -1,0 +1,15 @@
+[project]
+name = "patent-due-date-etl"
+version = "1.0.0"
+description = "ETL pipeline that turns raw Indian patent filing exports into client- and due-date-level analysis."
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

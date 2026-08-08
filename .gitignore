@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Source data is private client information -- never commit it.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated pipeline outputs -- reproducible from source data, not source of truth.
+output/*
+!output/.gitkeep
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
