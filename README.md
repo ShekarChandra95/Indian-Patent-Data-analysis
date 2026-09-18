@@ -97,6 +97,3 @@ Tests run against a small synthetic DataFrame shaped like the raw export, so the
 - **Source data is never committed.** `data/raw/`, `data/processed/`, and `output/` are all gitignored — only `.gitkeep` placeholders are tracked, so client filing data never ends up in git history.
 - **`config.py` centralizes every tunable value** (urgency windows, inactive statuses, the raw→clean column mapping) so a policy change is a one-line edit, not a search-and-replace across modules.
 
-## License
-
-Internal tooling — add a license here if this repo is going public.
